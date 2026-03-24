@@ -61,8 +61,10 @@ while more_numbers:
         p_or_s = input("Type 's' for sample or 'p' for population : ")
         if p_or_s == 'p':
             print(f"Population Standard Deviation is : {population_standard_deviation(list1)}")
+            input("")
         elif p_or_s == "s":
             print(f"Sample Standard Deviation is : {sample_standard_deviation(list1)}")
+            input("")
         more_numbers = False
     else:
         x = int(x)
